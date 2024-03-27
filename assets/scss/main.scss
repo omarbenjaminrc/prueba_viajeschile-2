@@ -4,6 +4,7 @@
 @import '../../node_modules/bootstrap/scss/variables-dark';
 //1.- abstracts.
 @import './abstracts/variables', './abstracts/custom_bootstrap';
+@import './abstracts/jquery';
 //2.- vendors.
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 //3. base

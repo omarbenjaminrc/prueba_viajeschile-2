@@ -64,7 +64,7 @@
                     <img src="./assets/img/carousel3.jpg" class="d-block w-100" alt="pingüino">
                 </div>
             </div>
-    
+
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
@@ -112,13 +112,15 @@
                 <div class="card mb-3">
                     <div class="row h-100">
                         <div class="col-12 col-md-5">
-                            <img src="./assets/img/card1.jpg" class="card-img img-fluid h-100 object-fit-cover rounded-start"
+                            <img src="./assets/img/card1.jpg"
+                                class="card-img img-fluid h-100 object-fit-cover rounded-start"
                                 alt="Región de los lagos">
                         </div>
                         <div class="col-12 col-md-7 g-0">
                             <div class="card-body">
                                 <h5 class="card-title">Región de los lagos</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod
                                     tempor incididunt ut labore et dolore magna aliqua.</p>
                             </div>
                             <div class="card-footer d-flex align-items-center">
@@ -204,49 +206,43 @@
                 </div>
             </div>
         </div>
-        
+
     </section>
     <!-- fin cards -->
 
     <!-- inicio testimonios -->
-    <section id="testimonios" class="container my-4">
+    <section id="testimony" class="testimony container my-4">
         <h3 class="testimony__title text-center">Testimonios</h3>
-        <hr>
+        <hr class="testimony__divider">
         <div class="row testimony__container">
-            <div class="col-12 col-lg-4">
-                <div class="testimony__container">
+            <div class="col-12 col-lg-4 text-center">
+                <div class="testimony__item">
                     <p class="testimony__text">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga doloremque at vero esse quam
                         quaerat ea facilis beatae ipsum repudiandae.
                     </p>
-                </div>
-                <div>
                     <img class="testimony__image img-fluid" src="./assets/img/testimonio1.jpg" alt="foto de Mariela">
                 </div>
-                <strong class="testimonio__name">Mariela</strong>
+                <strong class="testimony__name">Mariela</strong>
             </div>
 
-            <div class="col-12 col-lg-4">
-                <div class="testimony__container">
+            <div class="col-12 col-lg-4 text-center">
+                <div class="testimony__item">
                     <p class="testimony__text">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga doloremque at vero esse quam
                         quaerat ea facilis beatae ipsum repudiandae.
                     </p>
-                </div>
-                <div>
                     <img class="testimony__image img-fluid" src="./assets/img/testimonio2.jpg" alt="Foto de Christian">
                 </div>
                 <strong class="testimonio__name">Christian</strong>
             </div>
 
-            <div class="col-12 col-lg-4">
-                <div class="testimony__container">
+            <div class="col-12 col-lg-4 text-center">
+                <div class="testimony__item">
                     <p class="testimony__text">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga doloremque at vero esse quam
                         quaerat ea facilis beatae ipsum repudiandae.
                     </p>
-                </div>
-                <div>
                     <img class="testimony__image img-fluid" src="./assets/img/testimonio3.jpg" alt="Foto de Fernanda">
                 </div>
                 <strong class="testimony__name">Fernanda</strong>
@@ -264,38 +260,38 @@
                 <form>
                     <div class="row">
                         <div class="col mb-3">
-                            <label for="formGroupExampleInput" class="form-label">Nombre</label> <i class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="top"
-                            data-bs-custom-class="custom-tooltip"
-                            data-bs-title="Escribe tu nombre"></i>
+                            <label for="formGroupExampleInput" class="form-label">Nombre</label> <i
+                                class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="top"
+                                data-bs-custom-class="custom-tooltip" data-bs-title="Escribe tu nombre"></i>
                             <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre">
                         </div>
                         <div class="col mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Email</label> <i class="fa-solid fa-circle-info"data-bs-toggle="tooltip" data-bs-placement="top"
-                            data-bs-custom-class="custom-tooltip"
-                            data-bs-title="Escribe tu correo"></i>
+                            <label for="exampleInputEmail1" class="form-label">Email</label> <i
+                                class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="top"
+                                data-bs-custom-class="custom-tooltip" data-bs-title="Escribe tu correo"></i>
                             <input type="email" class="form-control" id="exampleInputEmail1"
                                 aria-describedby="emailHelp" placeholder="Email">
                         </div>
                     </div>
                     <div class="mb-3">
-                        <label for="FormControlTextarea1" class="form-label">Mensaje</label> <i class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="top"
-                        data-bs-custom-class="custom-tooltip"
-                        data-bs-title="Escribe un mensaje"></i>
+                        <label for="FormControlTextarea1" class="form-label">Mensaje</label> <i
+                            class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="top"
+                            data-bs-custom-class="custom-tooltip" data-bs-title="Escribe un mensaje"></i>
                         <textarea class="form-control" id="FormControlTextarea1" rows="3"></textarea>
                     </div>
                     <div class="mb-3 form-check">
                         <input type="checkbox" class="form-check-input" id="Check1">
-                        <label class="form-check-label text-decoration-underline" for="Check1" data-bs-toggle="modal" data-bs-target="#exampleModal"> Acepto los términos y condiciones</label>
+                        <label class="form-check-label text-decoration-underline" for="Check1" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal"> Acepto los términos y condiciones</label>
                     </div>
 
-                    <div id="liveAlertPlaceholder">
-                        <button type="submit" class="btn btn-light mb-3" id="liveAlertBtn">
-                            Enviar
-                        </button>
-                    </div>
-
+                    <button id="enviarCorreo" type="button" class="btn btn-secondary mb-3" data-bs-toggle="tooltip"
+                        data-bs-placement="left" data-bs-title="Presiona para enviar">
+                        Enviar
+                    </button>
                 </form>
             </div>
+
             <div class="col">
                 <div class="pt-5">
                     <i class="fa-solid fa-phone mx-3"></i> <span>+56999887766</span>
@@ -319,20 +315,24 @@
     <!-- inicio modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h1 class="modal-title fs-5 dark" id="exampleModalLabel" style="color: black">Términos y condiciones</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5 dark" id="exampleModalLabel" style="color: black">Términos y condiciones
+                    </h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" style="color: black">
+                    Al realizar la reserva con Viajes Chile SPA (en adelante, “Viajes Chile”) y emitir la confirmación
+                    de viaje, su acceso al uso del servicio está condicionado a la aceptación y cumplimiento de los
+                    siguientes términos y condiciones. Cuando realiza una reserva con nosotros, garantiza que tiene la
+                    autoridad para aceptar y acepta en nombre de su parte los términos de estas Condiciones de reserva.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
             </div>
-            <div class="modal-body" style="color: black">
-                Al realizar la reserva con Viajes Chile SPA (en adelante, “Viajes Chile”) y emitir la confirmación de viaje, su acceso al uso del servicio está condicionado a la aceptación y cumplimiento de los siguientes términos y condiciones. Cuando realiza una reserva con nosotros, garantiza que tiene la autoridad para aceptar y acepta en nombre de su parte los términos de estas Condiciones de reserva.
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            </div>
-          </div>
         </div>
-      </div>
+    </div>
     <!-- fin modal -->
 </main>
 <!-- fin main -->
