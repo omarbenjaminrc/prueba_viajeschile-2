@@ -1,6 +1,10 @@
 $custom-colors: (
-  "custom-primary": $color1,
-  "custom-adl": $adl,
+  "custom-primary": $colorfondo,
+  "custom-white": $white,
+  "custom-secondary": $black,
+  "custom-warning": $yellow,
+  "custom-succes": $adl,
+  "custom-danger": $red,
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
